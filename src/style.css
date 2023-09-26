@@ -1,12 +1,10 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
   font-weight: 400;
   background-color: #242424;
 }
 
 * {
-  border: none;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -37,7 +35,6 @@ html::-webkit-scrollbar-thumb:hover {
 body {
   color: #333;
   text-align: center;
-  background: #242424;
   margin: 0;
 }
 
@@ -116,25 +113,3 @@ main {
     margin-right: 20px;
   }
 }
-
-/* @media screen and (min-width: 500px) {
-  .item {
-    width: 33%;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .item {
-    width: 25%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .wrapper {
-    margin-left: -20px;
-  }
-
-  .item {
-    width: 20%;
-  }
-} */
